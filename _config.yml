@@ -35,9 +35,11 @@ theme: minima
 plugins:
   - jekyll-feed
 
+header_pages:
+  - about.markdown
+show_excerpts: true
 minima:
   date_format: '%H:%M %Z %A, %Y-%m-%d' 
-  show_excerpts: true
 # Exclude from processing.
 # The following items will not be processed, by default.
 # Any item listed under the `exclude:` key here will be automatically added to
